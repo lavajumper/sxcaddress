@@ -31,7 +31,7 @@ body { font-family: Arial; }
 #singlesafety { text-align: left; padding: 5px; border-top: 2px solid green; top: -30px; position: relative; }
 
 #main { position: relative; text-align: center; margin: 0px auto; width: 1005px; }
-#logo { width: 578px; height: 80px; }
+#logo { width: 100px; height: 100px; }
 #generate { font-family: Courier New; height: 158px; text-align: left; position: relative; padding: 5px; border: 2px solid green; }
 #generate span { padding: 5px 5px 0 5px; }
 		

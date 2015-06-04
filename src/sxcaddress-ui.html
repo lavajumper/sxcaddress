@@ -50,7 +50,7 @@
 	GitHub Repository: https://github.com/pointbiz/bitaddress.org
 	-->
 
-	<title>sxcaddress.org</title>
+	<title>Sexcoin Address</title>
 	<meta charset="utf-8">
 
 	<script type="text/javascript">
@@ -123,8 +123,8 @@
 			<span><a href="?culture=fr" id="culturefr">Français</a></span> | 
 			<span><a href="?culture=el" id="cultureel">ελληνικά</a></span>
 		</div>
-		<img alt="sxcaddress.org" title="sxcaddress.org" id="logo" src="http://sxcaddress.org/light-logo.png">
-                <h1>sxcaddress.org</h1>
+		<img alt="sexcoin address" title="sexcoin address" id="logo" src="http://sexcoin.lavajumper.com/sxclogo.png">
+                <h1>Sexcoin Addresses</h1>
 
 		<div id="tagline">Open Source JavaScript Client-Side Sexcoin Wallet Generator</div>
 		<div id="testnet"></div>
@@ -177,7 +177,7 @@
 					<p id="singletip1"><b>A Sexcoin wallet</b> is as simple as a single pairing of a Sexcoin address with it's corresponding Sexcoin private key. Such a wallet has been generated for you in your web browser and is displayed above.</p>
 					<p id="singletip2"><b>To safeguard this wallet</b> you must print or otherwise record the Sexcoin address and private key. It is important to make a backup copy of the private key and store it in a safe location. This site does not have knowledge of your private key. If you are familiar with PGP you can download this all-in-one HTML page and check that you have an authentic version from the author of this site by matching the SHA1 hash of this HTML with the SHA1 hash available in the signed version history document linked on the footer of this site. If you leave/refresh the site or press the "Generate New Address" button then a new private key will be generated and the previously displayed private key will not be retrievable.	Your Sexcoin private key should be kept a secret. Whomever you share the private key with has access to spend all the sexcoins associated with that address. If you print your wallet then store it in a zip lock bag to keep it safe from water. Treat a paper wallet like cash.</p>
 					<p id="singletip3"><b>Add funds</b> to this wallet by instructing others to send sexcoins to your Sexcoin address.</p>
-					<p id="singletip4"><b>Check your balance</b> by going to sxcexplorer.net ,blockexplorer.lavajumper.com, or blockexplore.nl and entering your Sexcoin address.</p>
+					<p id="singletip4"><b>Check your balance</b> by going to sxcexplorer.com or blockexplorer.lavajumper.com and entering your Sexcoin address.</p>
 					<p id="singletip5"><b>Spend your sexcoins</b> by downloading one of the popular sexcoin p2p clients and importing your private key to the p2p client wallet. Keep in mind when you import your single key to a sexcoin p2p client and spend funds your key will be bundled with other private keys in the p2p client wallet. When you perform a transaction your change will be sent to another sexcoin address within the p2p client wallet. You must then backup the p2p client wallet and keep it safe as your remaining sexcoins will be stored there. Satoshi advised that one should never delete a wallet.</p>
 				</div>
 			</div>
@@ -185,7 +185,7 @@
 			<div id="paperarea">
 				<div class="commands">
 					<div id="papercommands" class="row">
-						<span><label id="paperlabelhideart">Hide Art?</label> <input type="checkbox" checked="checked" disabled="disabled" id="paperart" onchange="ninja.wallets.paperwallet.toggleArt(this);" /></span>
+						<span><label id="paperlabelhideart">Hide Art?</label> <input type="checkbox" id="paperart" onchange="ninja.wallets.paperwallet.toggleArt(this);" /></span>
 						<span><label id="paperlabeladdressestogenerate">Addresses to generate:</label> <input type="text" id="paperlimit" /></span>
 						<span><input type="button" id="papergenerate" value="Generate" onclick="ninja.wallets.paperwallet.build(document.getElementById('paperlimit').value * 1, document.getElementById('paperlimitperpage').value * 1, !document.getElementById('paperart').checked, document.getElementById('paperpassphrase').value);" /></span>
 						<span class="print"><input type="button" name="print" value="Print" id="paperprint" onclick="window.print();" /></span>
@@ -414,7 +414,7 @@
 					(<a href="ninja_bitaddress.org.txt" target="_blank" id="footerlabelpgp">PGP</a>)
 				</span>
 				<span class="item">527B 5C82 B1F6 B2DB 72A0<br />ECBF 8749 7B91 6397 4F5A</span>
-				<span class="item"><a href="https://github.com/sexcoin-project/sxcaddress.org" target="_blank" id="footerlabelgithub">GitHub Repository</a></span>
+				<span class="item"><a href="https://github.com/lavajumper/sxcaddress" target="_blank" id="footerlabelgithub">GitHub Repository</a></span>
 			</div>
 			<div class="copyright">
 				<span id="footerlabelcopyright1">Copyright bitaddress.org.</span>

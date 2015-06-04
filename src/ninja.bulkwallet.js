@@ -37,13 +37,13 @@ ninja.wallets.bulkwallet = {
 		var bulkWallet = ninja.wallets.bulkwallet;
 		if (bulkWallet.csvRowsRemaining > 0) {
 			bulkWallet.csvRowsRemaining--;
-			var key = new Bitcoin.ECKey(false);
+			var key = new Sexcoin.ECKey(false);
 			key.setCompressed(bulkWallet.compressedAddrs);
 
 			bulkWallet.csv.push((bulkWallet.csvRowLimit - bulkWallet.csvRowsRemaining + bulkWallet.csvStartIndex)
-								+ ",\"" + key.getBitcoinAddress() + "\",\"" + key.toString("wif")
+								+ ",\"" + key.getSexcoinAddress() + "\",\"" + key.toString("wif")
 			//+	"\",\"" + key.toString("wifcomp")    // uncomment these lines to add different private key formats to the CSV
-			//+ "\",\"" + key.getBitcoinHexFormat() 
+			//+ "\",\"" + key.getSexcoinHexFormat() 
 			//+ "\",\"" + key.toString("base64") 
 								+ "\"");
 

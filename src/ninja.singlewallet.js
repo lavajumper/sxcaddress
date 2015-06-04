@@ -13,9 +13,9 @@ ninja.wallets.singlewallet = {
 	// generate bitcoin address and private key and update information in the HTML
 	generateNewAddressAndKey: function () {
 		try {
-			var key = new Bitcoin.ECKey(false);
-			var bitcoinAddress = key.getBitcoinAddress();
-			var privateKeyWif = key.getBitcoinWalletImportFormat();
+			var key = new Sexcoin.ECKey(false);
+			var bitcoinAddress = key.getSexcoinAddress();
+			var privateKeyWif = key.getSexcoinWalletImportFormat();
 			document.getElementById("btcaddress").innerHTML = bitcoinAddress;
 			document.getElementById("btcprivwif").innerHTML = privateKeyWif;
 			var keyValuePair = {

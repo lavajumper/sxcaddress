@@ -1,3 +1,5 @@
+sxcaddress is a fork of sxcaddress.org
+
 sxcaddress.org
 JavaScript Client-Side Sexcoin Wallet Generator
 
@@ -35,6 +37,7 @@ END USER NOTES:
 
 Notice of Copyrights and Licenses:
 ---------------------------------------
+
 The sxcaddress.org project, software and embedded resources are copyright sxcaddress.org. 
 The sxcaddress.org name and logo are not part of the open source license.
 
@@ -54,6 +57,7 @@ window.QRCode			MIT License
 window.Bitcoin			MIT License
 
 The sxcaddress.org software is available under The MIT License (MIT)
+Copyright (c)      2015 lavajumper
 Copyright (c)      2014 sxcaddress.org
 Copyright (c) 2012-2013 liteaddress.org
 Copyright (c) 2011-2013 bitaddress.org

@@ -71,7 +71,7 @@ Sexcoin.Bip38Key = (function () {
 	return Bip38;
 })();
 
-//https://raw.github.com/pointbiz/sexcoinjs-lib/9b2f94a028a7bc9bed94e0722563e9ff1d8e8db8/src/eckey.js
+//https://raw.github.com/pointbiz/bitcoinjs-lib/9b2f94a028a7bc9bed94e0722563e9ff1d8e8db8/src/eckey.js
 Sexcoin.ECKey = (function () {
 	var ECDSA = Sexcoin.ECDSA;
 	var KeyPool = Sexcoin.KeyPool;

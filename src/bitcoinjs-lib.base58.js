@@ -1,4 +1,4 @@
-//https://raw.github.com/sexcoinjs/sexcoinjs-lib/c952aaeb3ee472e3776655b8ea07299ebed702c7/src/base58.js
+//https://raw.github.com/bitcoinjs/bitcoinjs-lib/c952aaeb3ee472e3776655b8ea07299ebed702c7/src/base58.js
 (function (Sexcoin) {
 	Sexcoin.Base58 = {
 		alphabet: "123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz",

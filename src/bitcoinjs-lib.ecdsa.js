@@ -1,4 +1,4 @@
-//https://raw.github.com/sexcoinjs/sexcoinjs-lib/e90780d3d3b8fc0d027d2bcb38b80479902f223e/src/ecdsa.js
+//https://raw.github.com/bitcoinjs/bitcoinjs-lib/e90780d3d3b8fc0d027d2bcb38b80479902f223e/src/ecdsa.js
 Sexcoin.ECDSA = (function () {
 	var ecparams = EllipticCurve.getSECCurveByName("secp256k1");
 	var rng = new SecureRandom();

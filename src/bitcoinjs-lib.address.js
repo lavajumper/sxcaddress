@@ -1,4 +1,4 @@
-//https://raw.github.com/sexcoinjs/sexcoinjs-lib/09e8c6e184d6501a0c2c59d73ca64db5c0d3eb95/src/address.js
+//https://raw.github.com/bitcoinjs/bitcoinjs-lib/09e8c6e184d6501a0c2c59d73ca64db5c0d3eb95/src/address.js
 Sexcoin.Address = function (bytes) {
 	if ("string" == typeof bytes) {
 		bytes = Sexcoin.Address.decodeString(bytes);

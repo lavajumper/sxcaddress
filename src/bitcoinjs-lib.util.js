@@ -1,4 +1,4 @@
-//https://raw.github.com/sexcoinjs/sexcoinjs-lib/09e8c6e184d6501a0c2c59d73ca64db5c0d3eb95/src/util.js
+//https://raw.github.com/bitcoinjs/bitcoinjs-lib/09e8c6e184d6501a0c2c59d73ca64db5c0d3eb95/src/util.js
 // Sexcoin utility functions
 Sexcoin.Util = {
 	/**

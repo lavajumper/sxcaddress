@@ -46,7 +46,7 @@
 
 		// status html
 		"statuslabelcryptogood": "&#10004; Good!", //TODO: please translate
-		"statuslabelcryptogood1": "Your browser can generate cryptographically random keys using window.crypto.getRandomValues", //TODO: please translate
+		"statuslabelcryptogood1": "Il tuo browser può generare chiavi crittograficamente casuali utilizzando window.crypto.getRandomValues", //TODO: please translate
 		"statusokcryptogood": "OK", //TODO: please translate
 		"statuslabelcryptobad": "&times; Oh no!", //TODO: please translate
 		"statuslabelcryptobad1": "Your browser does NOT support window.crypto.getRandomValues. You should use a more modern browser with this generator to increase the security of the keys generated.",
@@ -79,8 +79,8 @@
 		"singletip3": "<b>Ricevi fondi</b> su questo portafogli mostrando l'indirizzo bitcoin per il versamento.",
 		"singletip4": "<b>Controlla il saldo</b> visitando blockchain.info o blockexplorer.com cercando il tuo indirizzo bitcoin.",
 		"singletip5": "<b>Spendi i tuoi bitcoin</b> aprendo un account su blockchain.info usando la chiave privata. Puoi anche spendere i tuoi bitcoin scaricando il popolare client p2p ed importando in esso il portafogli. Tieni presente che quando importi una chiave nel client p2p, nel momento in cui spendi le monete, la chiave viene raggruppata insieme alle altre presenti nel programma con i restanti bitcoin. Quando esegui una transazione gli spiccioli verranno invitati verso un altro indirizzo all'interno del tuo portafogli gestito dal client p2p. Quindi dovresti tenere un backup del portafogli contenuto nel client p2p e tenere questo in un posto sicuro fin tanto terrai dei bitcoin lì. Satoshi consiglia di non cancellare mai un portafogli. ",
-		"singleshare": "SHARE", //TODO: please translate
-		"singlesecret": "SECRET", //TODO: please translate
+		"singleshare": "CONDIVIDERE", 
+		"singlesecret": "SEGRETA", 
 
 		// paper wallet html
 		"paperlabelhideart": "Senza grafica?",
@@ -161,6 +161,6 @@
 		"detailbip38decryptbutton": "Decripta BIP38",
 		"detailbip38encryptbutton": "Encrypt BIP38", //TODO: please translate
 		"detaillabelq1": "How do I make a wallet using dice? What is B6?", //TODO: please translate
-		"detaila1": "An important part of creating a Bitcoin wallet is ensuring the random numbers used to create the wallet are truly random. Physical randomness is better than computer generated pseudo-randomness. The easiest way to generate physical randomness is with dice. To create a Bitcoin private key you only need one six sided die which you roll 99 times. Stopping each time to record the value of the die. When recording the values follow these rules: 1=1, 2=2, 3=3, 4=4, 5=5, 6=0. By doing this you are recording the big random number, your private key, in B6 or base 6 format. You can then enter the 99 character base 6 private key into the text field above and click View Details. You will then see the Bitcoin address associated with your private key. You should also make note of your private key in WIF format since it is more widely used." //TODO: please translate
+		"detaila1": "Una parte importante della creazione di un portafoglio Bitcoin è garantire che i numeri casuali utilizzati per creare il portafoglio siano veramente casuali. La casualità fisica è migliore della pseudo-casualità generata dal computer. Il modo più semplice per generare casualità fisica è con i dadi. Per creare una chiave privata Bitcoin hai solo bisogno di un dado a sei facce che tiri 99 volte. Fermandosi ogni volta per registrare il valore dello stampo. Quando si registrano i valori seguire queste regole: 1 = 1, 2 = 2, 3 = 3, 4 = 4, 5 = 5, 6 = 0. In questo modo stai registrando il grande numero casuale, la tua chiave privata, in formato B6 o base 6. È quindi possibile immettere la chiave privata di 99 caratteri in base 6 nel campo di testo sopra e fare clic su Visualizza dettagli. Vedrai quindi l'indirizzo Bitcoin associato alla tua chiave privata. Dovresti anche prendere nota della tua chiave privata in formato WIF poiché è più ampiamente utilizzata."
 	};
 })(ninja.translator);
